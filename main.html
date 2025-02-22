@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>منتجع الدين</title>
+  <!-- ربط ملف CSS الخارجي -->
+  <link rel="stylesheet" href="mainpage.css">
+  
+</head>
+<body>
+  <!-- رأس الصفحة -->
+  <header>
+    <h1>منتجع الدين</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">عن المنتجع</a></li>
+        <li><a href="#facilities">المرافق</a></li>
+        <li><a href="#booking">الحجز</a></li>
+        <li><a href="file:///C:/Users/One%20By%20One/OneDrive/Desktop/html-css-course/customerservice.html" target="_blank" rel="noopener noreferrer">اتصل بنا</a></li>
+
+      </ul>
+    </nav>
+  </header>
+
+  <!-- المحتوى الرئيسي -->
+  <main>
+    <!-- قسم عن المنتجع -->
+    <section id="about">
+      <h1>عن المنتجع</h1>
+      <h3>منتجع الدين يحتوي على افضل المنتجعات في الشرق الاوسط</h3>
+    </section>
+
+    <!-- قسم المرافق -->
+    <section id="facilities">
+
+    </section>
+
+    <!-- قسم الحجز -->
+    <section id="booking">
+      <h2 class="hgz"> الحجز</h2>
+      <form id="bookingForm">
+        <label for="name">الاسم:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">البريد الإلكتروني:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="date">تاريخ الحجز:</label>
+        <input type="date" id="date" name="date" required>
+
+        <button type="submit">إرسال</button>
+      </form>
+      <!-- عنصر لعرض رسالة التأكيد -->
+      <div id="bookingMessage"></div>
+    </section>
+
+    <!-- قسم الاتصال -->
+    <section id="contact">
+    </section>
+  </main>
+
+  <!-- ذيل الصفحة -->
+  <footer class="foot">
+    <h2>&copy; منتجعات الدين </h2>
+  </footer>
+
+  <!-- ربط ملف JavaScript الخارجي -->
+  <script src="script.js"></script>
+</body>
+</html>
+

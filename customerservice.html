@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>اتصل بنا - منتجع الدين</title>
+  <!-- ربط ملف CSS الخارجي -->
+  <link rel="stylesheet" href="customerservice.css">
+</head>
+<body>
+  <header>
+    <h1>اتصل بنا</h1>
+  </header>
+
+  <main>
+    <section>
+      <p>يسعدنا تواصلك معنا بخصوص أي استفسار أو ملاحظات.</p>
+      <form id="contactForm">
+        <label for="name">الاسم:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">البريد الإلكتروني:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">رسالتك:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">إرسال</button>
+      </form>
+      <!-- عنصر لعرض رسالة التأكيد أو الأخطاء -->
+      <div id="feedback"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 منتجع الدين</p>
+  </footer>
+
+  <!-- ربط ملف JavaScript الخارجي -->
+  <script src="contact.js"></script>
+</body>
+</html>
+

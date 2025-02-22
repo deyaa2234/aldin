@@ -1,0 +1,85 @@
+
+/* تنسيق عام للصفحة */
+body {
+  font-family: Arial, sans-serif;
+  direction: rtl; /* لدعم الكتابة من اليمين إلى اليسار */
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+/* تنسيق رأس الصفحة */
+header {
+  background-color: #004080;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* تنسيق المحتوى الرئيسي */
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+/* تنسيق النموذج */
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+}
+
+form label {
+  margin: 10px 0 5px;
+}
+
+form input, form button {
+  padding: 10px;
+  font-size: 16px;
+}
+
+form button {
+  background-color: #004080;
+  color: white;
+  border: none;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+/* تنسيق ذيل الصفحة */
+footer {
+  background-color: #004080;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+}
+
+ .hgz{
+    text-align: center;
+ }
+
+   .foot {
+    align-content: end;
+   }
